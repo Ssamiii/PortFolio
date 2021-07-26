@@ -1,0 +1,31 @@
+.allTabs{
+    padding: 20px;
+}
+
+.tab{
+    color:whitesmoke;
+}
+
+.tab:hover{
+    background-color: whitesmoke;
+    text-shadow: turquoise;
+}
+
+.allTab {
+    animation-duration: 3s;
+    animation-name: top-bar;
+    animation-iteration-count: infinite;
+
+  }
+  
+  @keyframes top-bar {
+    from {
+      padding-top: 20px;    
+    }
+    50% {
+      padding-top: 25px;
+    }
+    to{
+        padding-top: 20px;
+    }
+  }

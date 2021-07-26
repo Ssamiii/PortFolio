@@ -1,0 +1,83 @@
+.container{
+    position: relative;
+    min-height: 500px;
+    max-width: 1000px;
+}
+.liners{
+    font-size: 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: whitesmoke;
+}
+.socials{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.socials:hover{
+    font-size: 60px;
+    color:turquoise;
+    transform: rotate(30deg);
+}
+.accounts{
+    position: absolute;
+    right: 70px;
+    top: 150px;
+    color: whitesmoke;
+}
+.instaLogo{
+    padding: 0px;
+    animation-duration: 3s;
+    animation-name: instarotate;
+    animation-iteration-count: infinite;
+}
+@keyframes instarotate {
+    from{
+        transform: rotate(0deg);
+        width: 20px;
+        height: 20px;
+    }
+
+    to{
+        transform: rotate(180deg);
+        width: 20px;
+        height: 20px;
+    }
+}
+.gmailLogo{
+    padding: 0px;
+    animation-duration: 2s;
+    animation-name: gmailrotate;
+    animation-iteration-count: infinite;
+}
+@keyframes gmailrotate {
+    from{
+        transform: rotate(0deg);
+        width: 20px;
+        height: 20px;
+    }
+    33%{
+        transform: rotate(20deg);
+        width: 20px;
+        height: 20px;
+    }
+    66%{
+        transform: rotate(-20deg);
+        width: 20px;
+        height: 20px;
+    }
+    to{
+        transform: rotate(0deg);
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.email{
+    padding: 10px;
+    font-family: 'Roboto';
+}
+.insta{
+    padding: 5px;
+    font-family: 'Roboto';
+}

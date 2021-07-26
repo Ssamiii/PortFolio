@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+.writer{
+    color: whitesmoke;
+    font-size: 40px;
+    font-family:'Special Elite', cursive;;
+}
+
+.hope{
+    color: whitesmoke;
+    text-align: center;
+}
+.photo{
+    background-image: './photo.jpeg';
+}
+.whiteColor{
+    color: whitesmoke;
+}
+.nobg{
+    background-color: transparent;
+
+}
+.cardImage{
+    height: 200px;
+    border:10px solid #040f13;
+    border-radius: 0px;
+}
+.playlist{
+    padding-top: 15px;
+}
+.link{
+    font-size: x-small;
+}
